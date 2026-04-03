@@ -49,13 +49,11 @@ Generates an official Retail Dossier tagged with a unique cryptographic Vector I
 ---
 
 ## 📂 Repository Structure
-
-```text
-├── app.py                         # Main monolithic Python application interface
-├── recommendation_system.pkl      # Bundled ML Assets (DataFrame, TF-IDF Vectorizer, Matrix)
-├── requirements.txt               # Python package dependencies
-└── README.md                      # System documentation
-
+    
+    ├── app.py                         # Main monolithic Python application interface
+    ├── recommendation_system.pkl      # Bundled ML Assets (DataFrame, TF-IDF Vectorizer, Matrix)
+    ├── requirements.txt               # Python package dependencies
+    └── README.md                      # System documentation
 
 
 
@@ -63,14 +61,14 @@ Generates an official Retail Dossier tagged with a unique cryptographic Vector I
 
 1. Clone the Repository
 
-git clone [https://github.com/akshitgajera1013/E-Commerce-Recommandation.git](https://github.com/akshitgajera1013/E-Commerce-Recommandation.git)
+        git clone [https://github.com/akshitgajera1013/E-Commerce-Recommandation.git](https://github.com/akshitgajera1013/E-Commerce-Recommandation.git)
 
-cd E-Commerce-Recommandation
+        cd E-Commerce-Recommandation
 
 2. Install Dependencies
 
-pip install -r requirements.txt
+        pip install -r requirements.txt
 
 3. Initialize the Application Server
 
-streamlit run app.py
+        streamlit run app.py
